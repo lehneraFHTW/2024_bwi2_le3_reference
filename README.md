@@ -1,4 +1,4 @@
-# 2024_bwi2_le2_reference
+# 2024_bwi2_le3_reference
 
 ## 1 Anlegen des Projektes
 ### 1.1  Neu in IntelliJ erstellen
@@ -88,3 +88,11 @@ Es finden ein paar Checks statt, und wenn man selbst ausreichende Rechte hat um 
 git switch MainBranchName
 git pull
 ```
+
+## 4.0 Hinzufügen des Github Workflows
+4.1 Anlegen der Ordner ".github/workflows/" im Root Verzeichnis des Projektes  
+4.2 Anlegen einer Workflow Datei. (f.e. "Build.yml")  
+4.3 Hinzfügen des Worklfows (siehe Datei im Repository unter .github/workflows/)  
+4.4 Push auf Github  
+4.5 Öffnen des Repos auf Github und den Reiter Actions öffnen (falls der Trigger des Worklfow Files ausgelöst wurde, läuft die Action sofort)
+
